@@ -1,0 +1,43 @@
+/* 메시지 입력하는 창 스타일 */
+.TextContainer {
+    color: black;
+    background: white;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+    height: 60px; /* 고정 높이 */
+    border-top: 1px solid #e0e0e0; /* 위쪽 테두리로 구분선 추가 */
+    box-sizing: border-box; /* 패딩을 포함한 전체 크기 계산 */
+}
+
+.textinput{
+    border: solid 1px #E8E6EA;
+    border-radius: 10px;
+    width: 400px;
+    height: 30px;
+    font-size: 13px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.textinput:focus{
+    border-radius: 10px;
+}
+.test1{
+    background: url(../IMG/Icon.png) no-repeat center;
+    margin: 0 10px;
+    width: 35px;
+    height: 35px;
+    border: solid 1px #E8E6EA;
+    border-radius: 10px;
+
+}
+/* .test2{
+    background: url(../IMG/Icon.png) no-repeat 7px;
+    width: 35px;
+    height: 35px;
+    border: solid 1px #E8E6EA;
+    border-radius: 10px;
+} */
